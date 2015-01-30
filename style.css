@@ -1,0 +1,41 @@
+body {
+	position: relative;
+    margin:0;     /* This is used to reset any browser-default margins */
+    height:100vh; /* This is needed to overcome a Chrome bug. */
+    width:100vw;  /* As above. */
+}
+.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+}
+.navbar {
+  border: none;
+}
+.navbar-default {
+	background-image: none;
+	background-color: white;
+	border-color: white;
+	box-shadow: none;
+}
+
+#frontPage {
+	width: 92vw;
+	margin-left: 4vw;
+	height: 100vh;
+	background-image: url("img/people.jpg");
+	background-size: cover;
+}
+.about, .portfolio, .contact{
+	height: 1000px;
+	background-color: grey;
+	margin-bottom: 20px;
+}
+
