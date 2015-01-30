@@ -53,23 +53,31 @@
 	</div>
 <!-- Front Page -->
 	<section>
-		<div id="frontPage"></div>
+		<div id="frontPage">
+			<div class="container text-center">
+				<object id="logoSVG">		
+					<embed src="img/logo-v2.svg">
+				</object>
+			</div>
+		</div>
 	</section>
 <!-- About section -->
 	<section id="about">
-		<div class="container about">
+		<div class="container">
+			<h2>About myself.</h2>
+			
 		</div>
 	</section>
 <!-- Portfolio section -->
-	<section id="portfolio">
+	<!-- <section id="portfolio">
 		<div class="container portfolio">
 		</div>
-	</section>
+	</section> -->
 <!-- Contact section -->
-	<section id="contact">
+	<!-- <section id="contact">
 		<div class="container contact">
 		</div>
-	</section>
+	</section> -->
 
 
 
